@@ -1,0 +1,1149 @@
+/* =====================================================
+   GENERAL SETTINGS
+===================================================== */
+
+html {
+  font-size: 16px;
+  scroll-behavior: smooth;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+
+/* =====================================================
+   NAVIGATION
+===================================================== */
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 1.25rem 10%;
+
+  background-color: #fff;
+}
+
+.nav-logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.nav-links {
+  display: flex;
+  gap: 1.25rem;
+}
+
+.nav-links li {
+  list-style: none;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #333;
+
+  font-size: 1rem;
+
+  transition: color 0.3s;
+}
+
+.nav-links a:hover {
+  color: #007bff;
+}
+
+
+/* Get Started Button */
+
+.navbar .btn-get-started {
+  padding: 0.625rem 1.25rem;
+
+  background-color: #007bff;
+  color: #fff;
+
+  border: none;
+  border-radius: 1rem;
+
+  cursor: pointer;
+  text-decoration: none;
+
+  transition: background-color 0.3s;
+}
+
+.navbar .btn-get-started:hover {
+  background-color: #0056b3;
+}
+
+
+/* =====================================================
+   HERO SECTION
+===================================================== */
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  gap: 2.5rem;
+
+  padding: 3.125rem 10%;
+
+  background-color: #f5f5f5;
+}
+
+.hero-content {
+  max-width: 50%;
+}
+
+.hero-list ul {
+  display: flex;
+  flex-direction: row;
+
+  gap: 0.625rem;
+}
+
+.hero-list li {
+  list-style: none;
+
+  font-size: 1.125rem;
+  color: #333;
+}
+
+.hero-content .hero-heading {
+  margin-top: 0.625rem;
+  margin-bottom: 1.25rem;
+}
+
+.hero-heading h1 {
+  font-size: 3rem;
+  color: #10233f;
+}
+
+.hero-content > p {
+  font-size: 0.875rem;
+  line-height: 1.6;
+  color: #718096;
+}
+
+.hero-buttons {
+  display: flex;
+  gap: 0.75rem;
+
+  margin-top: 1.25rem;
+}
+
+
+/* Hero Get Started */
+
+.hero .btn-get-started {
+  display: inline-block;
+
+  padding: 0.625rem 1.25rem;
+
+  background-color: #007bff;
+  color: #fff;
+
+  border: none;
+  border-radius: 1rem;
+
+  cursor: pointer;
+  text-decoration: none;
+
+  transition: background-color 0.3s;
+}
+
+.hero .btn-get-started:hover {
+  background-color: #0056b3;
+}
+
+
+/* Learn More */
+
+.btn-learn-more {
+  display: inline-block;
+
+  padding: 0.625rem 1.25rem;
+
+  background-color: #f5f5f5;
+  color: black;
+
+  border: 0.0625rem solid #007bff;
+  border-radius: 1rem;
+
+  cursor: pointer;
+  text-decoration: none;
+
+  transition: background-color 0.3s;
+}
+
+.btn-learn-more:hover {
+  background-color: #007bff;
+  color: #fff;
+}
+
+
+/* Hero Image */
+
+.hero-image {
+  width: 45%;
+}
+
+.hero-image img {
+  width: 100%;
+  height: auto;
+
+  border-radius: 0.625rem;
+}
+
+
+/* =====================================================
+   ABOUT US
+===================================================== */
+
+.about-us {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  gap: 3.125rem;
+
+  padding: 3.125rem 10%;
+}
+
+.about-content {
+  width: 50%;
+}
+
+.about-image {
+  width: 45%;
+}
+
+.about-image img {
+  width: 100%;
+  height: auto;
+
+  border-radius: 0.625rem;
+}
+
+
+/* About Button */
+
+.about-us .btn-about {
+  display: inline-block;
+
+  padding: 0.625rem 1.5625rem;
+
+  border: none;
+  border-radius: 1rem;
+
+  background-color: #f5f5f5;
+  color: #007bff;
+
+  font-weight: bold;
+}
+
+.about-us .about-us-heading {
+  margin-top: 0.625rem;
+  margin-bottom: 1.25rem;
+}
+
+.about-us-heading h1 {
+  font-size: 2rem;
+  color: #10233f;
+}
+
+.about-content > p {
+  font-size: 0.8125rem;
+
+  line-height: 1.6;
+
+  color: #718096;
+}
+
+
+/* About Statistics */
+
+.about-stats {
+  display: flex;
+
+  gap: 2.1875rem;
+
+  margin-top: 2.1875rem;
+}
+
+.stat {
+  display: flex;
+  align-items: center;
+
+  gap: 0.75rem;
+}
+
+.stat-icon {
+  font-size: 1.25rem;
+  color: #2563eb;
+}
+
+.stat h3 {
+  font-size: 1rem;
+
+  margin-bottom: 0.3125rem;
+
+  color: #10233f;
+}
+
+.stat p {
+  font-size: 0.6875rem;
+  color: #718096;
+}
+
+
+/* =====================================================
+   SERVICES
+===================================================== */
+
+.services {
+  background-color: #f5f5f5;
+
+  padding-bottom: 3.125rem;
+}
+
+.services-content {
+  padding: 3.125rem 10%;
+}
+
+.services .btn-services {
+  display: inline-block;
+
+  padding: 0.625rem 1.5625rem;
+
+  border: none;
+  border-radius: 1rem;
+
+  background-color: #ffffff;
+  color: #007bff;
+
+  font-weight: bold;
+}
+
+.services-content h1 {
+  font-size: 2rem;
+  color: #10233f;
+
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.services-content p {
+  font-size: 0.8125rem;
+
+  line-height: 1.6;
+
+  color: #718096;
+}
+
+
+/* Services Cards */
+
+.services-container {
+  display: grid;
+
+  grid-template-columns: repeat(4, 1fr);
+
+  gap: 1.25rem;
+
+  width: 100%;
+
+  padding: 0 10%;
+}
+
+.service-card {
+  background-color: white;
+
+  padding: 1.5625rem;
+
+  border-radius: 0.625rem;
+
+  box-shadow: 0 0.1875rem 0.625rem rgba(0, 0, 0, 0.05);
+
+  min-height: 11.25rem;
+}
+
+
+/* Service Icons */
+
+.service-icon {
+  width: 3rem;
+  height: 3rem;
+
+  border-radius: 50%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-size: 1.25rem;
+
+  margin-bottom: 1.25rem;
+}
+
+
+/* Service Titles */
+
+.service-card h3 {
+  font-size: 0.9375rem;
+
+  color: #10233f;
+
+  margin-bottom: 0.75rem;
+}
+
+.service-card p {
+  font-size: 0.75rem;
+
+  line-height: 1.7;
+
+  color: #718096;
+
+  margin-bottom: 0.9375rem;
+}
+
+.service-card a {
+  color: #2563eb;
+
+  text-decoration: none;
+
+  font-size: 0.75rem;
+
+  font-weight: 600;
+}
+
+
+/* Service Icon Colors */
+
+.web-icon {
+  background-color: #dce9ff;
+  color: #2563eb;
+}
+
+.mobile-icon {
+  background-color: #d7f7e9;
+  color: #16a34a;
+}
+
+.design-icon {
+  background-color: #eadfff;
+  color: #7c3aed;
+}
+
+.cloud-icon {
+  background-color: #ffedcc;
+  color: #f59e0b;
+}
+
+
+/* =====================================================
+   WHY CHOOSE US
+===================================================== */
+
+.why-choose-us {
+  display: grid;
+
+  grid-template-columns: 1fr 1.5fr;
+
+  column-gap: 4.375rem;
+
+  padding: 4.375rem 8%;
+
+  background-color: #f8fbff;
+}
+
+
+/* Left Side */
+
+.why-choose-us-description {
+  grid-row: 1 / 3;
+}
+
+.why-choose-us-description span {
+  display: inline-block;
+
+  padding: 0.5rem 1.125rem;
+
+  border-radius: 1.25rem;
+
+  background-color: #dce9ff;
+  color: #2563eb;
+
+  font-size: 0.75rem;
+  font-weight: bold;
+}
+
+.why-choose-us-description h1 {
+  margin-top: 1.125rem;
+  margin-bottom: 1.125rem;
+
+  font-size: 2.125rem;
+
+  color: #10233f;
+}
+
+.why-choose-us-description p {
+  font-size: 0.8125rem;
+
+  line-height: 1.6;
+
+  color: #718096;
+}
+
+
+/* Right Side */
+
+.first-content-container,
+.second-content-container {
+  display: grid;
+
+  grid-template-columns: 1fr 1fr;
+
+  gap: 2.5rem;
+}
+
+.first-content-container {
+  grid-column: 2;
+}
+
+.second-content-container {
+  grid-column: 2;
+
+  margin-top: 2.1875rem;
+}
+
+
+/* Features */
+
+.feature {
+  display: flex;
+
+  align-items: flex-start;
+
+  gap: 0.9375rem;
+}
+
+
+/* Feature Icon */
+
+.content-icon {
+  width: 2.8125rem;
+  height: 2.8125rem;
+
+  flex-shrink: 0;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 50%;
+
+  background-color: #dce9ff;
+  color: #2563eb;
+
+  font-size: 1.125rem;
+}
+
+.content-description h4 {
+  margin: 0 0 0.5rem;
+
+  font-size: 0.9375rem;
+
+  color: #10233f;
+}
+
+.content-description p {
+  margin: 0;
+
+  font-size: 0.75rem;
+
+  line-height: 1.6;
+
+  color: #718096;
+}
+
+
+/* =====================================================
+   FOOTER
+===================================================== */
+
+.footer {
+  background-color: #0d1b2f;
+
+  color: white;
+
+  padding: 3.75rem 8% 1.25rem;
+}
+
+
+/* Main Footer */
+
+.footer-container {
+  display: grid;
+
+  grid-template-columns: 1.5fr 1fr 1.2fr 1.2fr;
+
+  gap: 3.125rem;
+
+  padding-bottom: 2.8125rem;
+}
+
+
+/* Logo */
+
+.footer-logo {
+  font-size: 1.25rem;
+
+  font-weight: bold;
+
+  margin-bottom: 1.125rem;
+}
+
+.footer-logo span {
+  color: #2563eb;
+
+  margin-right: 0.5rem;
+}
+
+
+/* About */
+
+.footer-about p {
+  max-width: 16.25rem;
+
+  color: #a8b3c5;
+
+  font-size: 0.8125rem;
+
+  line-height: 1.7;
+}
+
+
+/* Footer Headings */
+
+.footer-column h3 {
+  font-size: 0.9375rem;
+
+  margin-bottom: 1.25rem;
+}
+
+
+/* Footer Links */
+
+.footer-column a {
+  display: block;
+
+  text-decoration: none;
+
+  color: #a8b3c5;
+
+  font-size: 0.8125rem;
+
+  margin-bottom: 0.75rem;
+}
+
+.footer-column a:hover {
+  color: #ffffff;
+}
+
+
+/* Contact */
+
+.footer-contact p {
+  color: #a8b3c5;
+
+  font-size: 0.8125rem;
+
+  margin-bottom: 0.875rem;
+}
+
+.footer-contact i {
+  color: #2563eb;
+
+  width: 1.25rem;
+
+  margin-right: 0.5rem;
+}
+
+
+/* Bottom Footer */
+
+.footer-bottom {
+  border-top: 0.0625rem solid #26364d;
+
+  padding-top: 1.25rem;
+
+  display: flex;
+
+  justify-content: space-between;
+
+  align-items: center;
+}
+
+.footer-bottom p {
+  color: #7f8da3;
+
+  font-size: 0.75rem;
+}
+
+.footer-bottom-links {
+  display: flex;
+
+  gap: 1.5625rem;
+}
+
+.footer-bottom-links a {
+  color: #7f8da3;
+
+  text-decoration: none;
+
+  font-size: 0.75rem;
+}
+
+
+/* =====================================================
+   RESPONSIVE DESIGN
+===================================================== */
+
+
+/* =====================================================
+   LARGE / DESKTOP
+   1200px = 75rem
+===================================================== */
+
+@media (min-width: 75rem) {
+
+  .navbar {
+    padding: 1.25rem 8%;
+  }
+
+  .hero {
+    padding: 5rem 8%;
+  }
+
+  .hero-heading h1 {
+    font-size: 3.25rem;
+  }
+
+  .about-us {
+    padding: 5rem 8%;
+  }
+
+  .services-content {
+    padding: 5rem 8%;
+  }
+
+  .services-container {
+    padding-left: 8%;
+    padding-right: 8%;
+  }
+
+  .why-choose-us {
+    padding: 5rem 8%;
+  }
+
+  .footer {
+    padding: 3.75rem 8% 1.25rem;
+  }
+
+}
+
+
+/* =====================================================
+   TABLET
+   769px = 48.0625rem
+   1199px = 74.9375rem
+===================================================== */
+
+@media (min-width: 48.0625rem) and (max-width: 74.9375rem) {
+
+  /* Navigation */
+
+  .navbar {
+    padding: 1.125rem 5%;
+  }
+
+  .nav-links {
+    gap: 1.25rem;
+  }
+
+  .nav-links a {
+    font-size: 0.8125rem;
+  }
+
+  .navbar .btn-get-started {
+    padding: 0.625rem 1.125rem;
+
+    font-size: 0.8125rem;
+  }
+
+
+  /* Hero */
+
+  .hero {
+    padding: 3.75rem 5%;
+
+    gap: 2.5rem;
+  }
+
+  .hero-content {
+    width: 50%;
+  }
+
+  .hero-image {
+    width: 50%;
+  }
+
+  .hero-heading h1 {
+    font-size: 2.5rem;
+  }
+
+  .hero-content > p {
+    font-size: 0.8125rem;
+  }
+
+
+  /* About */
+
+  .about-us {
+    padding: 3.75rem 5%;
+
+    gap: 2.5rem;
+  }
+
+  .about-content {
+    width: 50%;
+  }
+
+  .about-image {
+    width: 50%;
+  }
+
+  .about-us-heading h1 {
+    font-size: 2rem;
+  }
+
+  .about-content > p {
+    font-size: 0.8125rem;
+  }
+
+  .about-stats {
+    gap: 0.9375rem;
+  }
+
+  .stat {
+    gap: 0.5rem;
+  }
+
+
+  /* Services */
+
+  .services-content {
+    padding: 3.75rem 5%;
+  }
+
+  .services-container {
+    grid-template-columns: repeat(2, 1fr);
+
+    gap: 1.25rem;
+
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  .service-card {
+    padding: 1.375rem;
+  }
+
+
+  /* Why Choose Us */
+
+  .why-choose-us {
+    padding: 3.75rem 5%;
+
+    column-gap: 2.5rem;
+  }
+
+  .why-choose-us-description h1 {
+    font-size: 2rem;
+  }
+
+  .first-content-container,
+  .second-content-container {
+    gap: 1.5625rem;
+  }
+
+  .feature {
+    gap: 0.625rem;
+  }
+
+
+  /* Footer */
+
+  .footer {
+    padding: 3.125rem 5% 1.25rem;
+  }
+
+  .footer-container {
+    grid-template-columns: 1.3fr 1fr 1fr;
+
+    gap: 2.1875rem;
+  }
+
+  .footer-contact {
+    grid-column: 1 / -1;
+  }
+
+}
+
+
+/* =====================================================
+   MOBILE
+   768px = 48rem and below
+===================================================== */
+
+@media (max-width: 48rem) {
+
+  /* Navigation */
+
+  .navbar {
+    padding: 1.25rem 6%;
+
+    flex-wrap: wrap;
+
+    gap: 1.25rem;
+  }
+
+  .nav-logo {
+    font-size: 1.25rem;
+  }
+
+  .nav-links {
+    width: 100%;
+
+    order: 3;
+
+    display: flex;
+
+    justify-content: center;
+
+    flex-wrap: wrap;
+
+    gap: 0.9375rem;
+
+    padding: 0;
+  }
+
+  .nav-links a {
+    font-size: 0.75rem;
+  }
+
+  .navbar .btn-get-started {
+    font-size: 0.75rem;
+
+    padding: 0.5625rem 0.9375rem;
+  }
+
+
+  /* Hero */
+
+  .hero {
+    display: flex;
+
+    flex-direction: column;
+
+    padding: 3.125rem 6%;
+
+    gap: 2.5rem;
+
+    text-align: center;
+  }
+
+  .hero-content {
+    width: 100%;
+
+    max-width: 100%;
+  }
+
+  .hero-image {
+    width: 100%;
+  }
+
+  .hero-image img {
+    width: 100%;
+  }
+
+  .hero-list ul {
+    justify-content: center;
+  }
+
+  .hero-heading h1 {
+    font-size: 2.25rem;
+  }
+
+  .hero-content > p {
+    font-size: 0.8125rem;
+  }
+
+  .hero-buttons {
+    display: flex;
+
+    justify-content: center;
+
+    flex-wrap: wrap;
+
+    gap: 0.75rem;
+  }
+
+
+  /* About */
+
+  .about-us {
+    display: flex;
+
+    flex-direction: column;
+
+    padding: 3.75rem 6%;
+
+    gap: 2.5rem;
+  }
+
+  .about-content {
+    width: 100%;
+  }
+
+  .about-image {
+    width: 100%;
+  }
+
+  .about-image img {
+    width: 100%;
+  }
+
+  .about-us-heading h1 {
+    font-size: 1.875rem;
+  }
+
+  .about-content > p {
+    font-size: 0.8125rem;
+  }
+
+  .about-stats {
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 1.25rem;
+  }
+
+
+  /* Services */
+
+  .services-content {
+    padding: 3.75rem 6%;
+    text-align: center;
+  }
+
+  .services-content h1 {
+    font-size: 2rem;
+  }
+
+  .services-container {
+    grid-template-columns: 1fr;
+
+    gap: 1.25rem;
+
+    padding-left: 6%;
+    padding-right: 6%;
+  }
+
+  .service-card {
+    padding: 1.5625rem;
+  }
+
+
+  /* Why Choose Us */
+
+  .why-choose-us {
+    display: flex;
+
+    flex-direction: column;
+
+    padding: 3.75rem 6%;
+
+    gap: 2.1875rem;
+  }
+
+  .why-choose-us-description {
+    width: 100%;
+  }
+
+  .why-choose-us-description h1 {
+    font-size: 1.875rem;
+  }
+
+  .first-content-container,
+  .second-content-container {
+    display: grid;
+
+    grid-template-columns: 1fr;
+
+    gap: 1.5625rem;
+
+    width: 100%;
+  }
+
+  .second-content-container {
+    margin-top: 0;
+  }
+
+  .feature {
+    gap: 0.9375rem;
+  }
+
+
+  /* Footer */
+
+  .footer {
+    padding: 3.125rem 6% 1.25rem;
+  }
+
+  .footer-container {
+    grid-template-columns: 1fr 1fr;
+
+    gap: 2.1875rem;
+  }
+
+  .footer-about {
+    grid-column: 1 / -1;
+  }
+
+  .footer-bottom {
+    flex-direction: column;
+
+    gap: 0.9375rem;
+
+    text-align: center;
+  }
+
+  .footer-bottom-links {
+    justify-content: center;
+
+    flex-wrap: wrap;
+  }
+
+}
